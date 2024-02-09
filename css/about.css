@@ -1,8 +1,7 @@
 /* about page styling
 */
-
 h1 {
-    color:blue;
+    color:rgb(11, 38, 92);
     text-align: center;
     font-size: 100px;
 }
@@ -10,7 +9,11 @@ h1 {
     display: flex;
 }
 h2{
- font-size: 40px
+ font-size: 40px;
+    color: rgb(11, 38, 92);
+}
+h3{
+    font-size: 22px;
 }
 .container{
         height: 200px;
@@ -19,10 +22,12 @@ h2{
         border-radius: 5px;
         display: flex;
 }
-.images{
+.image-build{
     padding: 7px;
     margin: 10px 20px;
+    box-shadow: 2px 2px 5px 10px rgb(11, 38,92);
 }
+
 .container1{
     height: 300px;
     width: 760px;
@@ -31,9 +36,18 @@ h2{
     display: flex;
 }
 .card{
-    height: 224px;
+    background-color: rgb(11, 38, 92);
+    height: 300px;
     width: 224px;
     margin: 10px;
     padding: 5px;
     border-radius: 10px;
+    box-shadow: 2px 2px 4px 4px rgb(11, 38, 92);
+    border: solid white 3px;
+    }
+    .text{
+        font-size: 20px;
+        font-family: 'roboto slab',serif;
+       text-align: center;
+    color: white;
     }

@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Enquire Page</title>
     <link rel="stylesheet" href="./../css/enquire.css">
     <link rel="stylesheet" href="./../css/style.css">
@@ -10,19 +8,65 @@
         crossorigin="anonymous"</script>
 </head>
 <body>
-    <div  class="header">
-        <i class="fa-solid fa-building-user fa-xl icon" style="color: #FFD43B;"></i>
-       <p class="title">Rainbow Heights</p> 
-       <p><a href="./../index.html">Home</a></p>
-       <p><a href="./about.html">About</a></p>
-       <p><a href="./floorPlan.html">Floor Plan</a></p>
-       <p><a href="./amenities.html">Amenities</a></p>
-       <p><a href="./gallery.html">Gallery</a></p>
-       <p><a href="./contact.html">Contact</a></p>
-       <p><a href="./enquire.html">Enquire Now</a></p>
-       <p><a href="./reviews.html">Reviews</a></p>
-       <h1>heading tag</h1>
-    </div>
-    Enquire Page
+    <div class="main">
+        <h1>Room Booking Enquiry Form</h1>
+        <br /><br />
+        <div class="register">
+            <br />
+            <form id="register" method="post">
+                <div class="form">
+                            <i class="fa-solid fa-building-user fa-xl icon" style="color: #FFD43B;"></i>
+
+                    <label>Your Name:</label><br />
+                    <i class="mail.png">
+                    </i>
+                    <input type="text" id="name" placeholder=" Enter your Name">
+                    <br /><br />
+                    <label>Your Email:</label><br />
+                    <input type="email" id="name" placeholder="Enter Your Email">
+                    <br /><br />
+                    <label for="phno">Phone Number:</label>
+                    <input type="text" id="name" placeholder="Enter your Phone Number">
+                    <br/><br/>
+                    <label>Gender:</label>
+                    <br />
+                    <input type="radio" name="gender" id="male">
+                    &nbsp;
+                    <span id="male">Male</span>
+                    &nbsp;
+                    <input type="radio" name="gender" id="female">
+                    &nbsp;
+                    <span id="female">Female</span>
+                    &nbsp
+                    <input type="radio" name="gender" id="other">
+                    &nbsp
+                    <span id="other">Other</span>
+                    <br /><br />
+                    <label for="select room">Select Room Type:</label><br />
+                    <select id="select room">
+                        <option>None</option>
+                        <option>1BHK(Bedroom,Hall,Kitchen)</option>
+                        <option>2BHK(Bedroom,Hall,Kitchen) </option>
+                        <option>3BHK(Bedroom,Hall,Kitchen) </option>
+                    </select>
+                    <br /><br />
+                    <label for="selectcity">Select City:</label>
+                    <select id="selectcity">
+                        <option>none</option>
+                        <option>Pune</option>
+                        <option>Mumbai</option>
+                        <option>Nashik</option>
+                    </select>
+                    <br /><br />
+                    <label for="dates">Check in & Time</label><br />
+                    <input type="date" id="dates">&nbsp;
+                    <input type="time" />
+                    <br /><br />
+                    <label for="dates">Check out & Time</label><br />
+                    <input type="date" id="dates">&nbsp;
+                    <input type="time" /><br /><br />
+                    <input type="submit" value="BOOK NOW" name="submit" id="submit">
+    
+            </form>
 </body>
 </html>

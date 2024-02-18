@@ -35,17 +35,15 @@ h3{
     display: flex;
 }
 .card{
-    background-color: rgb(11, 38, 92);
     height: 300px;
     width: 224px;
     margin: 10px;
     padding: 5px;
     border-radius: 10px;
-    border: solid white 3px;
     }
     .text{
         font-size: 20px;
         font-family: 'roboto slab',serif;
        text-align: center;
-    color: white;
+    color: black;
     }

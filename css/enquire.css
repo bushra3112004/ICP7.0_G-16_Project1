@@ -1,4 +1,5 @@
 /* enquire page styling
+<<<<<<< HEAD
 */*
  body{
     background-color: #3f9cc1;
@@ -71,4 +72,112 @@ span,
 h2 {
     text-shadow: 1px 1px 5px;
     rgba(0, 0, 0, 0.3);
+=======
+*/
+
+*{
+    box-sizing: border-box;
+}
+.container h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+form .container{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 15px;
+    background-color: white;
+    width: 500px;
+    margin-top: 40px;
+    margin-left: 33%;
+    border-radius: 10px;
+    border: 1px solid  rgb(5, 20, 49);
+    }
+form .container:hover{
+box-shadow: 0 0 10px 2px grey;
+}
+
+input[type=text], input[type=email],input[type=date],textarea
+{
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+input[type=text]:focus,
+input[type=date]:focus,input[type=email]:focus{
+    background-color: #ddd;
+    outline: none;
+}
+
+form hr{
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+
+}
+form button{
+    background-color: rgb(5, 20, 49);
+    color: white;
+    padding: 16px 20px ;
+    margin: 8px 0;
+    border: none;
+     width: 100%;
+    opacity: 0.9;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-weight: 800;
+}
+button:hover{
+    opacity:1;
+   background-color:#3a9bbb;
+}
+
+form a{
+    color: dodgerblue;
+
+}
+.sign-in{
+    background-color: #f1f1f1;
+    text-align: center;
+}
+form h1{
+    text-align: center;
+    color: rgb(5, 20, 49) ;
+}
+
+.enquiry-msg{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items:center;
+}
+.enquiry-msg img{
+    height: 450px;
+    width: auto;
+
+}
+.enquiry-msg p {
+    font-size: 25px;
+   padding:  10px 0;
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.enquiry-msg p:hover{
+    margin-left: 10px;
+   color: rgb(231, 168, 33)
+}
+.enquiry-msg h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(5, 20, 49);
+    font-size: 28px;
+}
+@media screen and (max-width: 768px){
+    .enquiry-msg{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    form .container{
+        margin-left: 0%;
+    }
+
+    
+>>>>>>> ba730ada6543399fd75e227bcad6b7814e09a24a
 }

@@ -1,2 +1,141 @@
 /* contact page styling
 */
+/* div styling */
+h1{
+    color:rgb(11, 38, 92) ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+ .contact-box1 p{
+    border: 1px solid grey;
+    border-radius: 0 20px 20px 20px;
+    margin: 20px 0;
+    padding: 10px 20px;
+    font-weight: bold;
+    background-color: aliceblue;
+    
+ }
+  
+.contact-box{
+    display: flex;
+    flex-direction: row;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-size: 22px;
+    color: rgb(11, 38, 92);
+    align-items: center;
+    justify-content: center;
+    
+    
+    /* margin-top: 40px;
+    margin-left: 70px;
+    margin-bottom: 10px;
+    height: 400px;
+    width: 1200px;  */
+    }
+    @media screen and (max-width:768px) {
+        .contact-box{
+            flex-wrap: wrap;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+        }
+    .team-card-container{
+        display: flex;
+        flex-direction: column;
+        padding: 10px 10px;
+
+    }  
+    iframe{
+        max-width: 100%;
+        height: auto;
+    } 
+   
+    .team-card{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width:300px;
+        height:300px;
+        
+    }
+    /* .team-card img{
+        max-width: 100%;
+        height: auto;
+    } */
+    .team-card img{
+        
+height: 250px;
+width: 250px;
+         border-radius: 50%;
+         object-fit:cover;
+         position: absolute;
+         top:0px;
+         
+         
+     
+      }
+        
+    }
+    .contact-box a{
+        color: rgb(11, 38, 92);
+        text-decoration: none;
+    }
+.contact-box .contact-img{
+    height: 50px;
+}
+.contact-us{
+    height: 400px;
+    
+    /* margin-left: 700px;
+    margin-top: -290px; */
+}
+
+.contact-box p:hover{
+   margin-left: 5px;
+   color: rgb(231, 168, 33);
+
+}
+/* team div styling */
+
+.team-card-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: center;
+    height:auto;
+    width: 100%;
+    margin-bottom:-100px;
+    padding: 20px 20px;
+}
+.team-card{
+    margin: 20px 20px;
+    height: 400px;
+    width: 25%;
+     overflow: hidden;
+    position: relative;
+    border: 2px solid grey;
+    border-radius: 10px 10px 0 0;
+    box-shadow: 0 0 10px 1px grey;
+}
+.team-card:hover{
+    box-shadow: 0 0 10px 2px rgb(11, 38, 92);
+    margin-bottom: 10px;
+}
+.team-card h3{
+    text-align: center;
+   padding-top: 310px;
+   
+}
+.team-card img{
+   margin: 20px 10px -10px 30px;
+    border-radius: 50%;
+    object-fit:cover;
+    position: absolute;
+    top:0px;
+    width: 80%;
+    height: 300px;
+    
+
+ }
